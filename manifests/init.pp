@@ -1,6 +1,6 @@
 class minecraft {
   package { 'Minecraft':
-    source => template('minecraft/download_url'),
+    source   => 'http://s3.amazonaws.com/MinecraftDownload/launcher/Minecraft.zip',
     provider => 'compressed_app'
   }
 }
