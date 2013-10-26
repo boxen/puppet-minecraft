@@ -5,8 +5,8 @@
 #  include minecraft
 class minecraft {
   package { 'Minecraft':
-    source   => 'http://s3.amazonaws.com/MinecraftDownload/launcher/Minecraft.zip',
-    provider => 'compressed_app'
+    source   => 'https://s3.amazonaws.com/Minecraft.Download/launcher/Minecraft.dmg',
+    provider => 'appdmg'
   }
 
   file { '/Applications/Minecraft.app/Contents/MacOS/JavaApplicationStub':
