@@ -8,8 +8,8 @@ describe 'minecraft' do
   end
   it do
     should contain_package('Minecraft').with({
-      :source   => 'http://s3.amazonaws.com/MinecraftDownload/launcher/Minecraft.zip',
-      :provider => 'compressed_app'
+      :source   => 'https://s3.amazonaws.com/Minecraft.Download/launcher/Minecraft.dmg',
+      :provider => 'appdmg'
     })
 
     should contain_file('/Applications/Minecraft.app/Contents/MacOS/JavaApplicationStub').with({
