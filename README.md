@@ -1,12 +1,7 @@
 # Minecraft Puppet Module for Boxen
 
-## Usage
+Deprecated in favour of [brewcask][1] and [Boxen's in built support for
+homebrew/brewcask][2].
 
-```puppet
-include minecraft
-```
-
-## Required Puppet Modules
-
-* boxen
-* stdlib
+[1]: https://caskroom.github.io/
+[2]: https://git.io/v6NlB
